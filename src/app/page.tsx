@@ -1,11 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import FileUploader from '@/components/FileUploader';
-import ProgressBar from '@/components/ProgressBar';
-import ResultTable from '@/components/ResultTable';
-import { FileAnalysisResult, analyzeFiles } from '@/utils/fileDetector';
-// import SecurityInfo from '@/components/SecurityInfo';
+import FileUploader from '../components/FileUploader';
+import ProgressBar from '../components/ProgressBar';
+import ResultTable from '../components/ResultTable';
+import { FileAnalysisResult, analyzeFiles } from '../utils/fileDetector';
+// import SecurityInfo from '../components/SecurityInfo';
 
 export default function Home() {
   const [results, setResults] = useState<FileAnalysisResult[]>([]);

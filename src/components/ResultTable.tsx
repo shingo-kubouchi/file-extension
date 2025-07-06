@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { FileAnalysisResult } from '@/utils/fileDetector';
+import { FileAnalysisResult } from '../utils/fileDetector';
 
 interface ResultTableProps {
   results: FileAnalysisResult[];
