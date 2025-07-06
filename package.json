@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "security-audit": "npm audit --audit-level=moderate",
+    "security-check": "audit-ci --moderate"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -23,6 +26,7 @@
     "postcss": "^8.4.32",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
-    "@eslint/eslintrc": "^3"
+    "@eslint/eslintrc": "^3",
+    "audit-ci": "^7.0.1"
   }
 }
