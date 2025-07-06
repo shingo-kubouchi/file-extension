@@ -1,0 +1,14 @@
+# Global rule - shingo-kubouchiが全てのファイルの所有者
+* @shingo-kubouchi
+
+# 特定のファイルやディレクトリに対する詳細な設定
+/.github/ @shingo-kubouchi
+/src/ @shingo-kubouchi
+/package.json @shingo-kubouchi
+/next.config.ts @shingo-kubouchi
+/netlify.toml @shingo-kubouchi
+/README.md @shingo-kubouchi
+
+# セキュリティ関連ファイルは特に厳重に管理
+/.github/workflows/ @shingo-kubouchi
+/src/utils/fileDetector.ts @shingo-kubouchi 
