@@ -30,28 +30,8 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: false,
   },
   
-  // セキュリティヘッダーの設定
-  async headers() {
-    return [
-      {
-        source: '/(.*)',
-        headers: [
-          {
-            key: 'X-Content-Type-Options',
-            value: 'nosniff',
-          },
-          {
-            key: 'X-Frame-Options',
-            value: 'DENY',
-          },
-          {
-            key: 'X-XSS-Protection',
-            value: '1; mode=block',
-          },
-        ],
-      },
-    ];
-  },
+  // セキュリティヘッダーの設定は netlify.toml で行う
+  // static export では async headers は使用できない
 };
 
 export default nextConfig;
