@@ -6,7 +6,7 @@
 
 **ファイル名の拡張子と実際のファイル形式を比較して、不一致を検出するWebアプリケーション**
 
-[📱 **Live Demo**](https://file-extension-checker.netlify.app) | [📖 **ドキュメント**](docs/) | [🤝 **コントリビューション**](CONTRIBUTING.md)
+[📱 **Live Demo**](https://file-extension.netlify.app) | [📖 **ドキュメント**](docs/) | [🤝 **コントリビューション**](CONTRIBUTING.md)
 
 ## ✨ 特徴
 
@@ -34,7 +34,7 @@
 ## 🚀 使用方法
 
 ### 1. オンラインで使用
-[Live Demo](https://file-extension-checker.netlify.app) にアクセスしてすぐに使用できます。
+[Live Demo](https://file-extension.netlify.app) にアクセスしてすぐに使用できます。
 
 ### 2. ローカルで実行
 ```bash
@@ -126,9 +126,9 @@ npm run security-audit # セキュリティ監査
 
 ## 🙏 謝辞
 
-- [Next.js](https://nextjs.org/) - 素晴らしいReactフレームワーク
-- [Tailwind CSS](https://tailwindcss.com/) - 効率的なスタイリング
-- [Netlify](https://netlify.com/) - 簡単で高性能なホスティング
+- [Next.js](https://nextjs.org/) 
+- [Tailwind CSS](https://tailwindcss.com/) 
+- [Netlify](https://netlify.com/) 
 
 ## 📞 サポート
 
@@ -136,7 +136,6 @@ npm run security-audit # セキュリティ監査
 
 - 📋 [Issues](https://github.com/shingo-kubouchi/file-extension/issues) - バグレポートや機能要求
 - 💬 [Discussions](https://github.com/shingo-kubouchi/file-extension/discussions) - 質問や議論
-- 📧 Email: shingo.kubouchi@example.com
 
 ---
 
