@@ -4,8 +4,8 @@ import { useState } from 'react';
 import FileUploader from '@/components/FileUploader';
 import ProgressBar from '@/components/ProgressBar';
 import ResultTable from '@/components/ResultTable';
-import SecurityInfo from '@/components/SecurityInfo';
 import { FileAnalysisResult, analyzeFiles } from '@/utils/fileDetector';
+// import SecurityInfo from '@/components/SecurityInfo';
 
 export default function Home() {
   const [results, setResults] = useState<FileAnalysisResult[]>([]);
@@ -92,7 +92,7 @@ export default function Home() {
         </div>
 
         {/* セキュリティ情報 */}
-        <SecurityInfo />
+        {/* <SecurityInfo /> */}
 
         {/* ファイルアップローダー */}
         <div className="mb-8">
