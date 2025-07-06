@@ -4,6 +4,7 @@ import { useState } from 'react';
 import FileUploader from '@/components/FileUploader';
 import ProgressBar from '@/components/ProgressBar';
 import ResultTable from '@/components/ResultTable';
+import SecurityInfo from '@/components/SecurityInfo';
 import { FileAnalysisResult, analyzeFiles } from '@/utils/fileDetector';
 
 export default function Home() {
@@ -89,6 +90,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* セキュリティ情報 */}
+        <SecurityInfo />
 
         {/* ファイルアップローダー */}
         <div className="mb-8">
